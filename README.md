@@ -1,10 +1,10 @@
-# Bitcoin Miner - DOSP Fall 2022
+# Bitcoin Miner 
 
 ## Authors
-| Name | UFID |
+| Name | Github |
 | ----------- | ----------- |
-| Mohammed Uzair Fasih | 6286 1020 |
-| Sohaib Uddin Syed | 5740 5488 |
+| Mohammed Uzair Fasih | https://github.com/Uzair-Fasih |
+| Sohaib Uddin Syed | https://github.com/sohaibuddinsyed/ |
 
 ## Overview
 The goal of the project is to use the actor model in erlang and design a distributed solution to mine bitcoins. We have designed our system to work as follows:
@@ -21,7 +21,7 @@ The main server process then listens for incoming messages from its own processe
 - This process repeats for work unit times after which the actor requests the supervisor for a new `Nonce`.
 - The environment variables `GatorId`, `ActorCount`, `WorkUnit` and `PerformanceInterval` are configurable from the `bitcoin.app` file.
 
-## Rubric and Output
+## Takeaways
 
 ### 1) Work Unit
 
